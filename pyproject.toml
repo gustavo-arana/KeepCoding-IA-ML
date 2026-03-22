@@ -1,0 +1,24 @@
+[project]
+name = "bootcamp-ai-5"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "ipykernel==6.29.5",
+    "jupyterlab==4.3.5",
+    "lightgbm>=4.6.0",
+    "matplotlib==3.10.1",
+    "numpy>=2.1.3",
+    "pandas>=2.3.3",
+    "scikit-learn==1.6.1",
+    "seaborn>=0.13.2",
+    "setuptools==80.10.2",
+    "xgboost>=3.2.0",
+    "ydata-profiling>=4.12.2",
+]
+
+[dependency-groups]
+dev = [
+    "uv>=0.10.11",
+]
